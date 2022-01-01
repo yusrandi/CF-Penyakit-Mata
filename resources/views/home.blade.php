@@ -21,10 +21,8 @@
                                 anda</div>
                             <div
                                 class="w-full sm:w-72 leading-relaxed text-white text-opacity-70 dark:text-gray-600 dark:text-opacity-100 mt-3">
-                                Ayo, silahkan periksakan</div>
-                            <a class="btn w-32 bg-white dark:bg-dark-2 dark:text-white mt-6 sm:mt-10"
-                                href="{{ route('diagnosa') }}">Start
-                                Now</a>
+                                Ayo, silahkan periksakan mata anda, agar kesehatan mata tetap terjaga</div>
+
                             <img class="hidden sm:block absolute top-0 right-0 w-2/2 -mt-3 mr-2"
                                 alt="Icewall Tailwind HTML Admin Template" src="images/mata1.png">
                         </div>
@@ -37,15 +35,17 @@
                                 Ajaklah teman anda <span class="font-medium">periksa</span> GRATIS!</div>
                             <div class="w-full sm:w-60 leading-relaxed text-gray-600 mt-2">anda berpeluang menjaga mata anda
                                 dari penyakit mata</div>
-                            <div class="w-48 relative mt-6 cursor-pointer tooltip" title="Copy referral link">
-                                <input class="form-control" value="https://dashboard.in">
-                                <i data-feather="copy" class="absolute right-0 top-0 bottom-0 my-auto mr-4 w-4 h-4"></i>
-                            </div>
+
                             <img class="hidden sm:block absolute top-0 right-0 w-1/2 mt-1 -mr-12"
                                 alt="Icewall Tailwind HTML Admin Template" src="images/mata2.png">
                         </div>
                     </div>
                     <!-- END: Ads 2 -->
+
+
+
+
+
 
                 </div>
             </div>
@@ -78,12 +78,7 @@
                                             <div class="text-gray-600 text-justify mt-1">Sistem ini menggunakan basis
                                                 pengetahuan yang didapatkan dari pakar kesehatan mata
                                                 yang dapat mendeteksi gejala-gejala dini penyakit mata yang diderita</div>
-                                            <div class="font-medium flex mt-5">
-                                                <button type="button" class="btn btn-secondary py-1 px-2">View
-                                                    Notes</button>
-                                                <button type="button"
-                                                    class="btn btn-outline-secondary py-1 px-2 ml-auto ml-auto">Dismiss</button>
-                                            </div>
+
                                         </div>
                                         <div class="p-5">
                                             <div class="text-base font-medium truncate">Survey Penyakit Mata</div>
@@ -96,12 +91,7 @@
                                                 orang Indonesia.</div>
                                             <div class="text-gray-600 text-justify mt-1">Penyakit mata sangat beragam dan
                                                 cara menanganinya juga berbeda, tergantung dari penyebabnya. .</div>
-                                            <div class="font-medium flex mt-5">
-                                                <button type="button" class="btn btn-secondary py-1 px-2">View
-                                                    Notes</button>
-                                                <button type="button"
-                                                    class="btn btn-outline-secondary py-1 px-2 ml-auto ml-auto">Dismiss</button>
-                                            </div>
+
                                         </div>
 
                                     </div>

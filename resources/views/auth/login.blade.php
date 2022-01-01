@@ -34,7 +34,7 @@ License: You must have a valid license purchased only from themeforest(the above
             <div class="hidden xl:flex flex-col min-h-screen">
                 <a href="" class="-intro-x flex items-center pt-5">
                     <img alt="Icewall Tailwind HTML Admin Template" class="w-6" src="dist/images/logo.svg">
-                    <span class="text-white text-lg ml-3"> Ice<span class="font-medium">wall</span> </span>
+                    <span class="text-white text-lg ml-3"> MATA<span class="font-medium">KU</span> </span>
                 </a>
                 <div class="my-auto">
                     <img alt="Icewall Tailwind HTML Admin Template" class="-intro-x w-1/2 -mt-16"

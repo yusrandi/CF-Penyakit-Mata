@@ -39,7 +39,7 @@ class DiagnosaController extends Controller
         $gejalas = Gejala::all();
         // return $gejalas;
         foreach ($gejalas as $key => $value) {
-            echo $value->id;
+            // echo $value->id;
             $validateData = array_merge($validateData,[
                 $value->kode => 'required'
             ]);

@@ -42,7 +42,7 @@
                                                 @foreach ($cfs as $item)
                                                     <option value="{{ $i->id . ',' . $item->nilai }}"
                                                         {{ old($i->kode) == $i->id . ',' . $item->nilai ? 'selected' : '' }}>
-                                                        {{ $item->nilai . ' , ' . $item->nama }}
+                                                        {{ $item->nama }}
                                                     </option>
                                                 @endforeach
                                             </select>
