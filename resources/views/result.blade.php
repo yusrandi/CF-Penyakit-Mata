@@ -50,7 +50,6 @@
                                                         <td class="whitespace-nowrap">{{ $item->nama }}</td>
                                                         <td>{{ number_format($allResult[$key], 3) }}</td>
                                                     </tr>
-
                                                 @endforeach
                                             </tbody>
                                         </table>
@@ -89,12 +88,13 @@
                                 <div class="col-span-12">
                                     <div class="intro-y block sm:flex items-center">
                                         <h2 class="text-lg font-medium truncate mr-5">
-                                            Solusi
+                                            Details
                                         </h2>
                                     </div>
                                     <div class="font-bold pl-4 mt-5">
-                                        <div class="text-gray-300 font-small whitespace-nowrap">Solusi dari penyakit
-                                            tersebut adalah {{ $dataResult['info'] }}</div>
+                                        <div class="text-gray-300 font-small">Solusi dari penyakit
+                                            tersebut adalah
+                                            {{ $dataResult['info'] }}</div>
 
                                     </div>
 

@@ -109,13 +109,15 @@ class DiagnosaController extends Controller
             
         }
 
+        // return $dataResult;
+
         $data = [
             'user_id' => Auth::user()->id,
             'penyakit_id' => $penyakit_id,
             'cf' => number_format($dataResult['cf'],3),
         ];
 
-        Laporan::create($data);
+        // Laporan::create($data);
         
         return view('result',[
             'gejalas' => Gejala::all(),
