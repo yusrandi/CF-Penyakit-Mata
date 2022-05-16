@@ -10,9 +10,11 @@ use App\Models\Penyakit;
 use Illuminate\Support\Facades\Auth;
 use Livewire\Component;
 use Illuminate\Support\Facades\Log;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
+
 class Diagnosas extends Component
 {
-    
+    use LivewireAlert;
     public $gejala = [];
 
     protected $rules = [

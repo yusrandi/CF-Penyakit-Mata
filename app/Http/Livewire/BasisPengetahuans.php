@@ -7,9 +7,13 @@ use App\Models\Cf;
 use App\Models\Gejala;
 use App\Models\Penyakit;
 use Livewire\Component;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
+
 
 class BasisPengetahuans extends Component
 {
+    use LivewireAlert;
+
     public $itemId, $penyakit_id, $gejala_id, $cf, $mb, $md;
     protected $rules = [
         // 'image' => 'required|image|max:1024',

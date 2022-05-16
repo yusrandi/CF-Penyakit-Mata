@@ -4,9 +4,11 @@ namespace App\Http\Livewire;
 
 use App\Models\Gejala;
 use Livewire\Component;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
 
 class Gejalas extends Component
 {
+    use LivewireAlert;
     public $itemId, $kode, $nama, $info;
     protected $rules = [
         // 'image' => 'required|image|max:1024',

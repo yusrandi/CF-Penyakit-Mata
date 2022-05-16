@@ -2,11 +2,14 @@
 
 namespace App\Http\Livewire;
 
+use Jantinnerezo\LivewireAlert\LivewireAlert;
 use App\Models\Penyakit;
 use Livewire\Component;
+use Livewire\WithPagination;
 
 class Penyakits extends Component
 {
+    use LivewireAlert;
     public $itemId, $kode, $nama, $info;
     protected $rules = [
         // 'image' => 'required|image|max:1024',

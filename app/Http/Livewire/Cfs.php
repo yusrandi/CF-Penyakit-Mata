@@ -4,9 +4,13 @@ namespace App\Http\Livewire;
 
 use App\Models\Cf;
 use Livewire\Component;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
+
 
 class Cfs extends Component
 {
+    use LivewireAlert;
+
     public $itemId, $nama, $nilai;
     protected $rules = [
         // 'image' => 'required|image|max:1024',
